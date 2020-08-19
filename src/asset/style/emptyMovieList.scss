@@ -1,0 +1,59 @@
+.empty_movie_list_container {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .empty_movie_list_title_container {
+    margin-top: 17.5%;
+    margin-bottom: 53px;
+
+    @media (max-width: 610px) {
+      width: 85%;
+    }
+
+    .empty_movie_list_title {
+      font-size: 48px;
+      font-family: "Merriweather", serif;
+      color: #000000;
+      line-height: 60px;
+      line-height: 100%;
+      align: Left;
+      vertical-align: Top;
+    }
+  }
+
+  .empty_movie_list_button_container {
+    margin-bottom: 85px;
+
+    .ant-btn {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      color: white;
+      font-size: 18px;
+      line-height: 23px;
+      line-height: 100%;
+      align: Center;
+      vertical-align: top;
+      background-color: #fd0157;
+      border: none;
+      border-radius: 5px;
+      height: 48px;
+      width: 333px;
+    }
+  }
+
+  .empty_movie_list_img_container {
+    width: 100%;
+    .empty_movie_list_img {
+      margin-left: 9%;
+      height: 100%;
+      width: 37%;
+      content: url("../../asset/img/undraw_empty_street_sfxm\ 1.png");
+    }
+  }
+}
